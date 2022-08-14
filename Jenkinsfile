@@ -5,6 +5,7 @@ pipeline {
 			steps {
 				sayHello 'Tenma'
 				sayFish()
+				shell()
 			}
 		}
 	}
