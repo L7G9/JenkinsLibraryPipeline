@@ -4,7 +4,7 @@ pipeline {
 		stage("Hello stage") {
 			steps {
 				sayHello 'Tenma'
-				sayFish
+				sayFish()
 			}
 		}
 	}
